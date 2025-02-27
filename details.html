@@ -1,0 +1,82 @@
+details.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+    <header style="background-color: black; color: yellow; text-align: center; padding: 5px; ">
+        <h1 style="font-size: 300%;">Mr.Foodie !!!</h1>
+        <p>Experience the Flavours of south Indian foods</p>
+    </header>
+    <nav style="background-color: #333; color: white; padding: 10px;">
+        <a href="home.html" style="color: yellow; margin: 0 10px; text-decoration: none; text-align: right;">HOME</a>
+        <a href="about.html" style="color: yellow; margin: 0 10px; text-decoration: none; text-align: right;">ABOUT</a>
+        <a href="contact.html" style="color: yellow; margin: 0 10px; text-decoration: none; text-align: right;"> CONTACT US</a>
+        <a href="help.html" style="color: yellow; margin: 0 10px; text-decoration: none; text-align: right;"> HELP</a>
+    </nav><br><br>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us </title>
+    </head>
+    <body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: black; color: yellow;">
+        <main style="display: flex; flex-wrap: wrap; padding: 2rem; max-width: 1200px; margin: auto; gap: 2rem;">
+            <section style="flex: 2; background-color: #605e5e; padding: 2rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+                <h2>Costomer Adress and details :</h2>
+                <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
+                    <div>
+                        <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required
+                               style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+                    </div>
+                    <div>
+                        <label for="age" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Age:</label>
+                        <input type="number" id="age" name="age" min="1" max="120" placeholder="Your age" required
+                               style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Gender:</label>
+                        <input type="radio" id="male" name="gender" value="Male" required>
+                        <label for="male" style="margin-right: 1rem;">Male</label>
+                        
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female" style="margin-right: 1rem;">Female</label>
+                        
+                        <input type="radio" id="other" name="gender" value="Other">
+                        <label for="other">Other</label>
+                    </div>
+                    <div>
+                        <label for="contact-date" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Deliver Date (for post deliveries only):</label>
+                        <input type="date" id="contact-date"
+                               style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+                    </div>
+                    <div>
+                        <label for="mobile" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Mobile Number:</label>
+                        <input type="tel" id="mobile" name="mobile" placeholder="Your mobile number" required
+                               style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+                    </div>
+                    <div>
+                        <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Address:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="state, district, city, pincode" required
+                                  style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+                    </div>
+                    <div style="text-align: center;">
+                        <button onclick="window.location.href='thank you.html';" style="background-color: yellow; height: 50px; width: 130px; border: #333; border-radius: 5px   ;">Buy Now</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </body>
+    </html>
+    <footer style="background-color: #333; color: white; padding: 1.5rem; margin-top: 260px;">
+        <p style="text-align: center;">&copy;2K25 Mr.Foodie, All Rights Reserved !!!</p>
+        <p style="color: white; font-size: 10px; text-align: left;">web-site developped by <br> R SAI KRISHNA AKHIL</p>
+    </footer>
+</body>
+</html>
